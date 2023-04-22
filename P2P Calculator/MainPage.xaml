@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P2P_Calculator.MainPage">
+
+    <VerticalStackLayout Spacing="15"
+                         Padding="20">
+        <Label Text = "Курс валюты"
+                            FontSize="20"/>
+        <Entry x:Name="Course" 
+               Text=""/>
+        <Label Text = "Сумма"
+                            FontSize="20"/>
+        <Entry x:Name="Money" 
+               Text=""/>
+        <Label Text = "Комиссия"
+                            FontSize="20"/>
+        <Entry x:Name="Comission" 
+               Text=""/>
+        <Button x:Name="Calculate"
+                Text="Calculate"/>
+        <Label Text = "Enter"
+                            FontSize="20"/>
+        <Label Text = "Прибыль"
+                            FontSize="20"/>
+        <Entry x:Name="Result" 
+               Text=""/>
+    </VerticalStackLayout>
+</ContentPage>

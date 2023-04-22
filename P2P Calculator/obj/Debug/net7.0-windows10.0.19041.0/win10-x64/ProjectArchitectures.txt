@@ -1,0 +1,1 @@
+C:\Projects\P2P-Calculator\P2P Calculator\P2P Calculator.csproj;x64
